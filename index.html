@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Tozems | Calculate Profit">
+    <meta property="og:description" content="Calculate your profits at all investment levels">
+    <meta property="og:image" content="img/calculator.jpg">
+    <meta property="og:image:alt" content="Tozems changes lives for the better, invest with a reliable company">
+    <meta property="og:image:width" content="564">
+    <meta property="og:image:height" content="375">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tozems საინვესტიციო კალკულატორი</title>
+</head>
+
+<body>
+    <div class="wrapper ">
+        <!-- <header>
+            <div class="header_soc">
+                <a target="blank" href=" https://t.me/karolina_irrbe">
+                    <img src="img/telegram.png" alt="Telegram" class="img">
+                </a>
+                <a target="blank" href="https://facebook.com/karolina_irbe">
+                    <img src="img/facebook.png" alt="Facebook" class="img">
+                </a>
+                <a target="blank" href=" https://wa.me/+447825915987">
+                    <img src="img/whatsapp.png" alt="WhatsApp" class="img">
+                </a>
+            </div>
+
+        </header> -->
+
+        <div class="main-container">
+            <div class="title main_title ">მოგება დეპოზიტებიდან</div>
+            <form id="main_form" action="#">
+                <div class="form_container">
+                    <div class="block block-num">
+                        <span class="form_title">ინვესტიციის ოდენობა</span>
+                        <input autofocus type="number" max="1000000" id="count" value="50">
+                    </div>
+                    <div class="block block-level">
+                        <span class="form_title">ინვესტიციის დონე</span>
+                        <select class="num" name="Level" id="level">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="block block-btn">
+                        <input class="btn button19" type="submit" value="გამოთვალეთ">
+                    </div>
+                </div>
+            </form>
+
+            <!-- <p class="total_result">Profit: $<span class="profit">3.50</span> + $<span class="deposit">50</span> = $<span id="count_total">53.50</span> </p> -->
+
+            <div class="result_container">
+                <!-- <p class="total_result">Total profit: $<span class="count_total">53.50</span></p> -->
+                <table class="iksweb">
+                    <tbody>
+                        <tr>
+                            <td>შემოსავალი დღეში</td>
+                            <td>Სრული შემოსავალი</td>
+                        </tr>
+                        <tr>
+                            <td>$<span>0.25</span></td>
+                            <td>$<span class="count_total">53.50</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="wrap">
+                <a target="_blank" href="https://tozems.net/?p=home&ref=94867370" class="btn button">Დარეგისტრირდით ახლა</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
